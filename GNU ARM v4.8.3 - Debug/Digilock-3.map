@@ -1750,21 +1750,21 @@ OUTPUT(Digilock-3.axf elf32-littlearm)
  .debug_ranges  0x00000560       0x60 ./Drivers/retargetserial.o
  .debug_ranges  0x000005c0       0x58 ./CMSIS/efm32pg1b/system_efm32pg1b.o
 
-.debug_line     0x00000000     0x38b1
- .debug_line    0x00000000      0x63e ./src/main.o
- .debug_line    0x0000063e       0x85 ./emlib/em_assert.o
- .debug_line    0x000006c3      0xa3c ./emlib/em_cmu.o
- .debug_line    0x000010ff      0x25d ./emlib/em_cryotimer.o
- .debug_line    0x0000135c      0x9da ./emlib/em_emu.o
- .debug_line    0x00001d36      0x3f4 ./emlib/em_gpio.o
- .debug_line    0x0000212a      0x136 ./emlib/em_int.o
- .debug_line    0x00002260      0x320 ./emlib/em_rtcc.o
- .debug_line    0x00002580      0x228 ./emlib/em_system.o
- .debug_line    0x000027a8      0x5b2 ./emlib/em_usart.o
- .debug_line    0x00002d5a      0x35d ./Drivers/retargetio.o
- .debug_line    0x000030b7      0x4a0 ./Drivers/retargetserial.o
- .debug_line    0x00003557       0xc4 ./CMSIS/efm32pg1b/startup_efm32pg1b.o
- .debug_line    0x0000361b      0x296 ./CMSIS/efm32pg1b/system_efm32pg1b.o
+.debug_line     0x00000000     0x38af
+ .debug_line    0x00000000      0x63c ./src/main.o
+ .debug_line    0x0000063c       0x85 ./emlib/em_assert.o
+ .debug_line    0x000006c1      0xa3c ./emlib/em_cmu.o
+ .debug_line    0x000010fd      0x25d ./emlib/em_cryotimer.o
+ .debug_line    0x0000135a      0x9da ./emlib/em_emu.o
+ .debug_line    0x00001d34      0x3f4 ./emlib/em_gpio.o
+ .debug_line    0x00002128      0x136 ./emlib/em_int.o
+ .debug_line    0x0000225e      0x320 ./emlib/em_rtcc.o
+ .debug_line    0x0000257e      0x228 ./emlib/em_system.o
+ .debug_line    0x000027a6      0x5b2 ./emlib/em_usart.o
+ .debug_line    0x00002d58      0x35d ./Drivers/retargetio.o
+ .debug_line    0x000030b5      0x4a0 ./Drivers/retargetserial.o
+ .debug_line    0x00003555       0xc4 ./CMSIS/efm32pg1b/startup_efm32pg1b.o
+ .debug_line    0x00003619      0x296 ./CMSIS/efm32pg1b/system_efm32pg1b.o
 
 .debug_str      0x00000000     0x45c1
  .debug_str     0x00000000     0x14f6 ./src/main.o

@@ -61,35 +61,6 @@ static void gpioSetup(void)
   Init_KeyboardC3();
 
 
-#if 0
- /*Keyboard - Row 1 - PD9 - Input with Filter Enabled*/
-  GPIO_PinModeSet(gpioPortD, 9, gpioModeInputPullFilter, 1);
-  GPIO_IntConfig(gpioPortD, 9, false, true,  true);
-  /*Keyboard - Row 2 - PC7 - Input with Filter Enabled*/
-  GPIO_PinModeSet(gpioPortC, 7, gpioModeInputPullFilter, 1);
-  GPIO_IntConfig(gpioPortC, 7, false, true,  true);
-  /*Keyboard - Row 3 - PA3 - Input with Filter Enabled*/
-  GPIO_PinModeSet(gpioPortA, 3, gpioModeInputPullFilter, 1);
-  GPIO_IntConfig(gpioPortA, 3, false, true,  true);
-  /*Keyboard - Row 4 - PB13 - Input with Filter Enabled*/
-  GPIO_PinModeSet(gpioPortB, 13, gpioModeInputPullFilter, 1);
-  GPIO_IntConfig(gpioPortB, 13, false, true,  true);
-
-  /*Keyboard - Column 1 - PA4 - Output- Push-pull*/
-  GPIO_PinModeSet(gpioPortA, 4, gpioModeWiredOr, 0);
-  /*Keyboard - Column 2 - PD10 - Output- Push-pull*/
-  GPIO_PinModeSet(gpioPortD, 10, gpioModeWiredOr, 0);
-  /*Keyboard - Column 3 - PD11 - Output- Push-pull*/
-  GPIO_PinModeSet(gpioPortD, 11, gpioModeWiredOr, 0);
-
-
-  /*Buzzer - PC6*/
-  GPIO_PinModeSet(gpioPortC, 6, gpioModePushPull, 0);
-#endif
-
-
-
-
 
   /* Configure PB0 as input and enable interrupt  */
   GPIO_PinModeSet(gpioPortF, 6, gpioModeInputPull, 1);
